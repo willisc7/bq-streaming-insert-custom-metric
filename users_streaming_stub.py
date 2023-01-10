@@ -9,7 +9,7 @@ import uuid
 # Construct a BigQuery client object.
 client = bigquery.Client()
 
-table_id = "bq-insert-buffer.ds_streaming.tbl_users"
+table_id = "PROJECT_ID.ds_streaming.tbl_users"
 
 
 age=[25, 35, 45, 22, 42, 29, 39, 21, 36, 42, 19, 55, 37]
