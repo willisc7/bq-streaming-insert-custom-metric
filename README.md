@@ -36,6 +36,7 @@ In this walkthrough we'll be using the following system table to build our custo
     * In **Alert policy name**, enter **BQ Insert Buffer**
     * Click **CREATE POLICY**
 1. As long as your script is still running you should receive an alert after the threshold passes 50 for 1 minute
+    * **Note:** you'll want to run the `bq_custom_metric.py` persistently somewhere like Cloud Run or a VM
 
 ### Contributors
 * [Prasad Alle](https://github.com/prasadalle) for creating the scripts in this walkthrough
